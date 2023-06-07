@@ -13,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PiperBotTI.Contracts;
+using PiperBotTI.Dialogs;
 using PiperBotTI.Infraestructure.Luis;
 using System.Security.Cryptography.Xml;
 
@@ -54,7 +55,8 @@ namespace PiperBotTI
             services.AddSingleton<IBotFrameworkHttpAdapter, AdapterWithErrorHandler>();
 
             services.AddSingleton<ILuisService,LuisService>();
-            services.AddTransient<IBot, PiperBot>();
+            services.AddSingleton<RootDialog>();
+            services.AddTransient<IBot, PiperBot<RootDialog>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -2,6 +2,7 @@
 // Licensed under the MIT License.
 
 using Microsoft.Bot.Builder;
+using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Schema;
 using System.Collections.Generic;
 using System.Threading;
@@ -9,15 +10,17 @@ using System.Threading.Tasks;
 
 namespace PiperBotTI
 {
-    public class PiperBot : ActivityHandler
+    public class PiperBot<T>: ActivityHandler where T: Dialog
     {
         private readonly BotState _userState;
         private readonly BotState _conversationState;
+        private readonly Dialog _dialog;
 
-        public PiperBot(UserState userState,ConversationState conversationState)
+        public PiperBot(UserState userState,ConversationState conversationState,T dialog)
         {       
             _userState = userState;
             _conversationState = conversationState;
+            _dialog = dialog;
         }
 
 
@@ -41,8 +44,11 @@ namespace PiperBotTI
 
         protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
-            var userMessage = turnContext.Activity.Text;
-            await turnContext.SendActivityAsync($"User:{userMessage}",cancellationToken : cancellationToken);
+            await _dialog.RunAsync(
+                turnContext,
+                _conversationState.CreateProperty<DialogState>(nameof(DialogState)),
+                cancellationToken
+                );
         }
     }
 }
