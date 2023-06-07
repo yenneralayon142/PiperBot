@@ -12,6 +12,8 @@ using Microsoft.Bot.Connector.Authentication;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PiperBotTI.Contracts;
+using PiperBotTI.Infraestructure.Luis;
 using System.Security.Cryptography.Xml;
 
 namespace PiperBotTI
@@ -51,7 +53,7 @@ namespace PiperBotTI
             // Create the Bot Adapter with error handling enabled.
             services.AddSingleton<IBotFrameworkHttpAdapter, AdapterWithErrorHandler>();
 
-            // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.
+            services.AddSingleton<ILuisService,LuisService>();
             services.AddTransient<IBot, PiperBot>();
         }
 
