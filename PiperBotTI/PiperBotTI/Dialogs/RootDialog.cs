@@ -2,6 +2,7 @@
 using Microsoft.Bot.Builder.Dialogs;
 using PiperBotTI.Common.Cards;
 using PiperBotTI.Contracts;
+using PiperBotTI.Dialogs.Qualification;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -20,6 +21,8 @@ namespace PiperBotTI.Dialogs
                 InitialProccess,
                 FinalProccess
             };
+            AddDialog(new QualificatioDialog());
+            AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), waterfallSteps));
             InitialDialogId = nameof(WaterfallDialog);
         }
@@ -45,7 +48,7 @@ namespace PiperBotTI.Dialogs
                     await IntentAgradecer(stepContext,luisResult,cancellationToken);
                     break;
                 case "Calificar":
-                    await IntentCalificar(stepContext,luisResult,cancellationToken);
+                   return await IntentCalificar(stepContext,luisResult,cancellationToken);
                     break;
                 case "MesaAyuda":
                     await IntentMesaAyuda(stepContext,luisResult,cancellationToken);
@@ -61,7 +64,13 @@ namespace PiperBotTI.Dialogs
         }
 
 
+
+
         #region IntentLuis
+        private async Task<DialogTurnResult> IntentCalificar(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
+        {
+            return await stepContext.BeginDialogAsync(nameof(QualificatioDialog),cancellationToken:cancellationToken);
+        }
 
         private async Task IntentVerOpciones(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
         {
@@ -84,17 +93,15 @@ namespace PiperBotTI.Dialogs
 
             await stepContext.Context.SendActivityAsync(person,cancellationToken: cancellationToken);
             await Task.Delay(1000);
-            await stepContext.Context.SendActivityAsync("¿En qué más te´puedo ayudar?");
+            await Task.Delay(1000);
+            await stepContext.Context.SendActivityAsync("¿En qué más te puedo ayudar?");
         }
 
-        private async Task IntentCalificar(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
-        {
-            await stepContext.Context.SendActivityAsync("Claro,calificarme es importante para revisar si soy útil", cancellationToken: cancellationToken);
-        }
+        
 
         private async Task IntentAgradecer(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
         {
-            await stepContext.Context.SendActivityAsync("No te preocupes, entre compañeros siempre nos ayudamos 😁", cancellationToken: cancellationToken);
+            await stepContext.Context.SendActivityAsync("No te preocupes, entre compañeros siempre nos ayudamos 😉", cancellationToken: cancellationToken);
         }
 
         private async Task IntentDespedirse(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
