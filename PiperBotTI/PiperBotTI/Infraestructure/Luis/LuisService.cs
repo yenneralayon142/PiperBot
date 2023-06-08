@@ -11,8 +11,10 @@ namespace PiperBotTI.Infraestructure.Luis
         public LuisService(IConfiguration configuration)
         {
             var luisApplication = new LuisApplication(
-                configuration["LuisApiKey"]
-                );
+               configuration["LuisAppId"],
+               configuration["LuisApiKey"],
+               configuration["LuisHostName"]
+               );
 
             var recognizerOptions = new LuisRecognizerOptionsV3(luisApplication)
             {

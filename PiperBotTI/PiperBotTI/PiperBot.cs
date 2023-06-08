@@ -30,7 +30,7 @@ namespace PiperBotTI
             {
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
-                    await turnContext.SendActivityAsync(MessageFactory.Text($"Hola Humano, Soy Piper ¿en que podría ayudarte?"), cancellationToken);
+                    await turnContext.SendActivityAsync(MessageFactory.Text($"Hola Humano, Soy Piper ¿en que podría ayudarte? 😄"), cancellationToken);
                 }
             }
         }

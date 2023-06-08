@@ -76,7 +76,15 @@ namespace PiperBotTI.Dialogs
 
         private async Task IntentMesaAyuda(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
         {
-            await stepContext.Context.SendActivityAsync("Estos son los héroes que nos colaboran con tus inquietudes", cancellationToken: cancellationToken);
+            string person =$"Te puedes contactar con las siguientes personas para que te ayuden con tu solicitud: 😎{Environment.NewLine}" +
+                $"Jhoan Tapia\t(jhoantapia@kpmg.com){Environment.NewLine}" +
+                $"Jhon Guzman\t(jhonguzman@kpmg.com){Environment.NewLine}" +
+                $"Jhansen Carodozo\t(jhansencardozo@kpmg.com){Environment.NewLine}" +
+                $"Camilo Suarez\t(casuarez@kpmg.com)";
+
+            await stepContext.Context.SendActivityAsync(person,cancellationToken: cancellationToken);
+            await Task.Delay(1000);
+            await stepContext.Context.SendActivityAsync("¿En qué más te´puedo ayudar?");
         }
 
         private async Task IntentCalificar(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
@@ -86,17 +94,17 @@ namespace PiperBotTI.Dialogs
 
         private async Task IntentAgradecer(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
         {
-            await stepContext.Context.SendActivityAsync("No te preocupes, entre compañeros siempre nos ayudamos :)", cancellationToken: cancellationToken);
+            await stepContext.Context.SendActivityAsync("No te preocupes, entre compañeros siempre nos ayudamos 😁", cancellationToken: cancellationToken);
         }
 
         private async Task IntentDespedirse(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
         {
-            await stepContext.Context.SendActivityAsync("Que te vaya muy bien, espero verte pronto", cancellationToken: cancellationToken);
+            await stepContext.Context.SendActivityAsync("Que te vaya muy bien, espero verte pronto 👐", cancellationToken: cancellationToken);
         }
 
         private async Task IntentSaludos(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
         {
-            await stepContext.Context.SendActivityAsync("Hola,soy Piper ¿En que te puedo ayudar?",cancellationToken:cancellationToken);
+            await stepContext.Context.SendActivityAsync("Hola,soy Piper ¿En que te puedo ayudar? 😄", cancellationToken:cancellationToken);
         }
         #endregion
         private Task<DialogTurnResult> FinalProccess(WaterfallStepContext stepContext, CancellationToken cancellationToken)
