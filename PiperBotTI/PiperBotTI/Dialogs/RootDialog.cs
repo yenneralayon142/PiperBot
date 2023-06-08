@@ -93,7 +93,6 @@ namespace PiperBotTI.Dialogs
 
             await stepContext.Context.SendActivityAsync(person,cancellationToken: cancellationToken);
             await Task.Delay(1000);
-            await Task.Delay(1000);
             await stepContext.Context.SendActivityAsync("¿En qué más te puedo ayudar?");
         }
 
