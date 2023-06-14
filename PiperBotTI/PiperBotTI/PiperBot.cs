@@ -4,6 +4,7 @@
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Schema;
+using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -15,12 +16,14 @@ namespace PiperBotTI
         private readonly BotState _userState;
         private readonly BotState _conversationState;
         private readonly Dialog _dialog;
+        private readonly ILogger _logger;
 
-        public PiperBot(UserState userState,ConversationState conversationState,T dialog)
+        public PiperBot(UserState userState,ConversationState conversationState,T dialog, ILogger<PiperBot<T>> logger)
         {       
             _userState = userState;
             _conversationState = conversationState;
             _dialog = dialog;
+            _logger = logger;
         }
 
 

@@ -1,5 +1,6 @@
 ﻿using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
+using PiperBotTI.Common.Buttons;
 using PiperBotTI.Common.Cards;
 using PiperBotTI.Contracts;
 using PiperBotTI.Dialogs.Qualification;
@@ -19,12 +20,22 @@ namespace PiperBotTI.Dialogs
             var waterfallSteps = new WaterfallStep[]
             {
                 InitialProccess,
-                FinalProccess
+                FinalProccess,
+                ShowOptions
+                
             };
             AddDialog(new QualificatioDialog());
             AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), waterfallSteps));
             InitialDialogId = nameof(WaterfallDialog);
+        }
+
+        private async Task<DialogTurnResult> ShowOptions(WaterfallStepContext stepContext, CancellationToken cancellationToken)
+        {
+            //Mostrar Botones
+
+            return await SuggestionButtons.ShowOptions(stepContext, cancellationToken);
+
         }
 
         private async Task<DialogTurnResult> InitialProccess(WaterfallStepContext stepContext, CancellationToken cancellationToken)
@@ -49,7 +60,6 @@ namespace PiperBotTI.Dialogs
                     break;
                 case "Calificar":
                    return await IntentCalificar(stepContext,luisResult,cancellationToken);
-                    break;
                 case "MesaAyuda":
                     await IntentMesaAyuda(stepContext,luisResult,cancellationToken);
                     break;
@@ -62,9 +72,6 @@ namespace PiperBotTI.Dialogs
             }
             return await stepContext.NextAsync(cancellationToken);
         }
-
-
-
 
         #region IntentLuis
         private async Task<DialogTurnResult> IntentCalificar(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)

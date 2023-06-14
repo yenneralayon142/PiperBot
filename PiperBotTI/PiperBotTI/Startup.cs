@@ -37,7 +37,7 @@ namespace PiperBotTI
                 );
 
             var userState = new UserState(storage);
-            services.AddSingleton(userState); 
+            services.AddSingleton(userState);
 
             var conversationState = new ConversationState(storage);
             services.AddSingleton(conversationState);
@@ -53,7 +53,8 @@ namespace PiperBotTI
 
             // Create the Bot Adapter with error handling enabled.
             services.AddSingleton<IBotFrameworkHttpAdapter, AdapterWithErrorHandler>();
-
+            services.AddSingleton<IStorage,MemoryStorage>();
+            services.AddSingleton<ConversationState>();
             services.AddSingleton<ILuisService,LuisService>();
             services.AddSingleton<RootDialog>();
             services.AddTransient<IBot, PiperBot<RootDialog>>();
