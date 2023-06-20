@@ -1,0 +1,64 @@
+[
+  {
+    "intent": "ICrearTicketPlanner",
+    "language": "es-es",
+    "text": "Planner no ejecuta",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketPlanner",
+    "language": "es-es",
+    "text": "Planner no quiere abrir",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketPlanner",
+    "language": "es-es",
+    "text": "Necesito usar Planner y no abre",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "16",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketPlanner",
+    "language": "es-es",
+    "text": "Como abro Planner",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "10",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketPlanner",
+    "language": "es-es",
+    "text": "Ayudame a abrir Planner",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "16",
+        "length": "07"
+      }
+    ]
+  }
+
+  
+]

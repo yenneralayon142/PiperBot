@@ -1,0 +1,65 @@
+[
+  {
+    "intent": "ICrearTicketPowerBI",
+    "language": "es-es",
+    "text": "Power BI no quiere ejecutar",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketPowerBI",
+    "language": "es-es",
+    "text": "Necesito abrir Power BI, pero no abre",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "15",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketPowerBI",
+    "language": "es-es",
+    "text": "Ayudame con Power BI, no me abre",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "13",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketPowerBI",
+    "language": "es-es",
+    "text": "Power BI falla",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketPowerBI",
+    "language": "es-es",
+    "text": "Power BI no me abre",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "07"
+      }
+    ]
+  }
+
+
+
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "intent": "ICrearTicketProject",
+    "language": "es-es",
+    "text": "Project no me abre",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "ICrearTicketProject",
+    "language": "es-es",
+    "text": "Ayudame con Project",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "ICrearTicketProject",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "ICrearTicketProject",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "ICrearTicketProject",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  }
+
+
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "intent": "ICrearTicketMobileIntune",
+    "language": "es-es",
+    "text":"La aplicacion Intune me falla",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "14",
+        "length": "06"
+      }
+    ]
+  },
+
+   {
+    "intent": "ICrearTicketMobileIntune",
+    "language": "es-es",
+    "text":"Mobile Intune me est� fallando",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "12"
+      }
+    ]
+  },
+
+   {
+    "intent": "ICrearTicketMobileIntune",
+    "language": "es-es",
+    "text":"Por qu� me falla Mobile Intune",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "17",
+        "length": "12"
+      }
+    ]
+  },
+
+   {
+    "intent": "ICrearTicketMobileIntune",
+    "language": "es-es",
+    "text":"Necesito ayuda con Mobile Intune",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "20",
+        "length": "12"
+      }
+    ]
+  },
+
+   {
+    "intent": "ICrearTicketMobileIntune",
+    "language": "es-es",
+    "text": "Mobile Intune no funciona",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "12"
+      }
+    ]
+  }
+
+
+ 
+]
