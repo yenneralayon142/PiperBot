@@ -1,0 +1,18 @@
+[
+  {
+    "intent": "ICrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "El boton de mi teams no funciona",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "15",
+        "length": "05"
+      }
+    ]
+  }
+
+ 
+
+
+]

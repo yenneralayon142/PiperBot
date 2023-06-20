@@ -1,0 +1,74 @@
+[
+  {
+    "intent": "Saludar",
+    "language": "es-es",
+    "text": "Holaa",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "05"
+      }
+    ]
+  },
+
+
+  {
+    "intent": "Saludar",
+    "language": "es-es",
+    "text": "Buenass",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "07"
+      }
+    ]
+  },
+
+
+  {
+    "intent": "Saludar",
+    "language": "es-es",
+    "text": "Buenos dias",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "10"
+      }
+    ]
+  },
+
+
+  {
+    "intent": "Saludar",
+    "language": "es-es",
+    "text": "Buenas tardes",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "12"
+      }
+    ]
+  },
+
+
+  {
+    "intent": "Saludar",
+    "language": "es-es",
+    "text": "Hola,¿como estás?",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "13"
+      }
+    ]
+  }
+
+
+  
+
+]

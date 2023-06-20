@@ -1,0 +1,63 @@
+[
+  {
+    "intent": "Agradecer",
+    "language": "es-es",
+    "text": "Muchas gracias",
+    "entities": [
+      {
+        "category": "Amabilidad",
+        "offset": "07",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "Agradecer",
+    "language": "es-es",
+    "text": "Graciass",
+    "entities": [
+      {
+        "category": "Amabilidad",
+        "offset": "0",
+        "length": "08"
+      }
+    ]
+  },
+  {
+    "intent": "Agradecer",
+    "language": "es-es",
+    "text": "Te agradezco demasiado",
+    "entities": [
+      {
+        "category": "Amabilidad",
+        "offset": "03",
+        "length": "09"
+      }
+    ]
+  },
+  {
+    "intent": "Agradecer",
+    "language": "es-es",
+    "text": "Mil gracias",
+    "entities": [
+      {
+        "category": "Amabilidad",
+        "offset": "04",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "Agradecer",
+    "language": "es-es",
+    "text": "Gracias por tu ayuda",
+    "entities": [
+      {
+        "category": "Amabilidad",
+        "offset": "0",
+        "length": "07"
+      }
+    ]
+  }
+
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "intent": "Despedirse",
+    "language": "es-es",
+    "text": "Adios nos vemos depu�s",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "05"
+      }
+    ]
+  },
+
+  {
+    "intent": "Despedirse",
+    "language": "es-es",
+    "text": "Hasta luego",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "10"
+      }
+    ]
+  },
+
+  {
+    "intent": "Despedirse",
+    "language": "es-es",
+    "text": "Chao",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "04"
+      }
+    ]
+  },
+
+  {
+    "intent": "Despedirse",
+    "language": "es-es",
+    "text": "Bye",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "03"
+      }
+    ]
+  },
+
+  {
+    "intent": "Despedirse",
+    "language": "es-es",
+    "text": "Chao, gracias por todo",
+    "entities": [
+      {
+        "category": "AbrirCerrar",
+        "offset": "0",
+        "length": "04"
+      }
+    ]
+  }
+
+  
+]

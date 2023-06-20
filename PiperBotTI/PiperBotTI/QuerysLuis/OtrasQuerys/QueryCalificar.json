@@ -1,0 +1,63 @@
+[
+  {
+    "intent": "Calificar",
+    "language": "es-es",
+    "text": "�Como te puedo calificar?",
+    "entities": [
+      {
+        "category": "MedirBot",
+        "offset": "16",
+        "length": "09"
+      }
+    ]
+  },
+  {
+    "intent": "Calificar",
+    "language": "es-es",
+    "text": "Quiero calificarte",
+    "entities": [
+      {
+        "category": "MedirBot",
+        "offset": "07",
+        "length": "11"
+      }
+    ]
+  },
+  {
+    "intent": "Calificar",
+    "language": "es-es",
+    "text": "Calificar Bot",
+    "entities": [
+      {
+        "category": "MedirBot",
+        "offset": "0",
+        "length": "09"
+      }
+    ]
+  },
+  {
+    "intent": "Calificar",
+    "language": "es-es",
+    "text": "Necesito calificarte",
+    "entities": [
+      {
+        "category": "MedirBot",
+        "offset": "09",
+        "length": "11"
+      }
+    ]
+  },
+  {
+    "intent": "Calificar",
+    "language": "es-es",
+    "text": "Muestrame donde te puedo calificar",
+    "entities": [
+      {
+        "category": "MedirBot",
+        "offset": "22",
+        "length": "09"
+      }
+    ]
+  }
+
+]

@@ -49,8 +49,8 @@ namespace PiperBotTI.Dialogs
             var topIntent = luisResult.GetTopScoringIntent();
             switch (topIntent.intent)
             {
-                case "Saludos":
-                    await IntentSaludos(stepContext, luisResult, cancellationToken);
+                case "Saludar":
+                    await IntentSaludar(stepContext, luisResult, cancellationToken);
                     break;
                 case "Despedirse":
                     await IntentDespedirse(stepContext,luisResult,cancellationToken);
@@ -87,7 +87,8 @@ namespace PiperBotTI.Dialogs
 
         private async Task IntentNone(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
         {
-            await stepContext.Context.SendActivityAsync("No entiendo lo que me dices,por favor repitelo de una manera más precisa y detallada", cancellationToken: cancellationToken);
+            await stepContext.Context.SendActivityAsync("Es emocionante que quieras interactuar conmigo, pero no olvides que solo estoy para resolver inquitudes profesionales", cancellationToken: cancellationToken);
+
         }
 
         private async Task IntentMesaAyuda(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
@@ -115,7 +116,7 @@ namespace PiperBotTI.Dialogs
             await stepContext.Context.SendActivityAsync("Que te vaya muy bien, espero verte pronto 👐", cancellationToken: cancellationToken);
         }
 
-        private async Task IntentSaludos(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
+        private async Task IntentSaludar(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
         {
             await stepContext.Context.SendActivityAsync("Hola,soy Piper ¿En que te puedo ayudar? 😄", cancellationToken:cancellationToken);
         }
