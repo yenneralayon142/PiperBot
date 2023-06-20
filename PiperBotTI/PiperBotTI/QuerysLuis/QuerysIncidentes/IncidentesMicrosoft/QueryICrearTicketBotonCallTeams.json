@@ -1,0 +1,66 @@
+[
+  {
+    "intent": "ICrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "El boton de mi teams no funciona",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "15",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "No puedo realizar una llamada por el teams",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "22",
+        "length": "07"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "Como hago una llamada por teams si no funciona",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "26",
+        "length": "05"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "Necesito realizar una llamada por teams y no funciona",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "30",
+        "length": "05"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "Ayudame, no puedo hacer una llamada por teams",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "30",
+        "length": "05"
+      }
+    ]
+  }
+
+ 
+
+
+]

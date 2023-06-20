@@ -1,0 +1,67 @@
+[
+  {
+    "intent": "ICrearTicketForms",
+    "language": "es-es",
+    "text": "El formulario me falla mucho",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "03",
+        "length": "11"
+      }
+    ]
+  },
+
+   {
+    "intent": "ICrearTicketForms",
+    "language": "es-es",
+    "text":"Forms no quiere funcionarme",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketForms",
+    "language": "es-es",
+    "text":"Necesito ayuda con forms",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "19",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketForms",
+    "language": "es-es",
+    "text": "El formulario me falla",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "03",
+        "length": "11"
+      }
+    ]
+  },
+
+  {
+    "intent": "ICrearTicketForms",
+    "language": "es-es",
+    "text": "No me funciona el formulario",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "18",
+        "length": "10"
+      }
+    ]
+  }
+
+
+
+]

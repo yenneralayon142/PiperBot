@@ -1,0 +1,63 @@
+[
+  {
+    "intent": "ICrearTicketOfficeEWP",
+    "language": "es-es",
+    "text":"Mi excel no guarda los cambios",
+    "entities": [
+      {
+        "category":"Microsoft0365",
+        "offset": "03",
+        "length": "05"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketOfficeEWP",
+    "language": "es-es",
+    "text": "El archivo excel no comparte",
+    "entities": [
+      {
+        "category":"Microsoft0365",
+        "offset": "03",
+        "length": "07"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketOfficeEWP",
+    "language": "es-es",
+    "text": "�Por qu� mi excel no guarda los cambios?",
+    "entities": [
+      {
+        "category":"Microsoft0365",
+        "offset": "12",
+        "length": "05"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketOfficeEWP",
+    "language": "es-es",
+    "text": "Como puedo compartir mi archivo excel",
+    "entities": [
+      {
+        "category":"Microsoft0365",
+        "offset": "11",
+        "length": "08"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketOfficeEWP",
+    "language": "es-es",
+    "text": "El archivo excel no funciona",
+    "entities": [
+      {
+        "category":"Microsoft0365",
+        "offset": "11",
+        "length": "05"
+      }
+    ]
+  }
+
+]

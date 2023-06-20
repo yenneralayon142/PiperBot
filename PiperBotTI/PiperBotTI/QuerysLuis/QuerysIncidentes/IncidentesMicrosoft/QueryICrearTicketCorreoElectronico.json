@@ -1,0 +1,63 @@
+[
+  {
+    "intent": "ICrearTicketCorreoElectronico",
+    "language": "es-es",
+    "text": "Tengo el buzón lleno del Outlook",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "25",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketCorreoElectronico",
+    "language": "es-es",
+    "text": "Mi buzón del Outlook está colapsado",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "08",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketCorreoElectronico",
+    "language": "es-es",
+    "text": "Como puedo desocupar mi buzon del Outlook",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "22",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketCorreoElectronico",
+    "language": "es-es",
+    "text": "No puedo recibir correos",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "11",
+        "length": "07"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketCorreoElectronico",
+    "language": "es-es",
+    "text": "El buzón del Outlook no me deja recibir correos",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "27",
+        "length": "07"
+      }
+    ]
+  }
+
+]

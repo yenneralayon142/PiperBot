@@ -1,0 +1,64 @@
+[
+  {
+    "intent": "ICrearTicketOneDrive",
+    "language": "es-es",
+    "text": "Error de sincronización en mi One Drive",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "10",
+        "length": "14"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketOneDrive",
+    "language": "es-es",
+    "text": "Incapacidad para compartir documentos en mi One Drive",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "19",
+        "length": "09"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketOneDrive",
+    "language": "es-es",
+    "text": "Problemas de sincronización en mi One Drive",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "35",
+        "length": "08"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketOneDrive",
+    "language": "es-es",
+    "text": "Dificultades para realizar la acción de compartir en mi One Drive",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "54",
+        "length": "08"
+      }
+    ]
+  },
+   {
+    "intent": "ICrearTicketOneDrive",
+    "language": "es-es",
+    "text": "Inconvenientes con la sincronización en mi One Drive",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "37",
+        "length": "08"
+      }
+    ]
+  }
+
+
+]
