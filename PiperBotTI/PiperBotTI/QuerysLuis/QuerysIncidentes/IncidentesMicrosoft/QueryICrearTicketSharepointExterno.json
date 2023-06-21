@@ -1,0 +1,67 @@
+[
+  {
+    "intent": "ICrearTicketSharepointExterno",
+    "language": "es-es",
+    "text": "Mi Sharepoint externo no muestra informacion",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "03",
+        "length": "18"
+      }
+    ]
+  },
+
+  {
+    "intent": "ICrearTicketSharepointExterno",
+    "language": "es-es",
+    "text": "Mi Shrepoint externo falla",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "03",
+        "length": "18"
+      }
+    ]
+  },
+
+  {
+    "intent": "ICrearTicketSharepointExterno",
+    "language": "es-es",
+    "text": "Las imagenes en mi Sharepoint externo no funciona",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "20",
+        "length": "18"
+      }
+    ]
+  },
+
+  {
+    "intent": "ICrearTicketSharepointExterno",
+    "language": "es-es",
+    "text": "La informaci�n en mi Sharepoint externo no carga",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "22",
+        "length": "18"
+      }
+    ]
+  },
+
+  {
+    "intent": "ICrearTicketSharepointExterno",
+    "language": "es-es",
+    "text": "Sharepoint externo no ejecuta",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "18"
+      }
+    ]
+  }
+
+]

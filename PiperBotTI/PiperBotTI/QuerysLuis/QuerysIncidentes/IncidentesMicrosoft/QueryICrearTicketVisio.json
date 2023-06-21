@@ -1,0 +1,63 @@
+[
+  {
+    "intent": "ICrearTicketVisio",
+    "language": "es-es",
+    "text": "Visio no ejecuta",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketVisio",
+    "language": "es-es",
+    "text": "Visio no me abre",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketVisio",
+    "language": "es-es",
+    "text": "Quiero abrir visio pero no puedo",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "13",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketVisio",
+    "language": "es-es",
+    "text": "Visio no me ejecuta",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketVisio",
+    "language": "es-es",
+    "text": "Visio presenta problemas de ejecución",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  }
+
+]

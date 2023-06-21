@@ -1,0 +1,64 @@
+[
+  {
+    "intent": "ICrearTicketTeams",
+    "language": "es-es",
+    "text": "Teams no carga los mensajes",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketTeams",
+    "language": "es-es",
+    "text": "Como hago para que Teams cargue los mensajes",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "19",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketTeams",
+    "language": "es-es",
+    "text": "Ayuda, teams no carga los mensajes",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "08",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketTeams",
+    "language": "es-es",
+    "text": "Por que Teams no carga los mensajes",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "08",
+        "length": "05"
+      }
+    ]
+  },
+  {
+    "intent": "ICrearTicketTeams",
+    "language": "es-es",
+    "text": "Teams no carga",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  }
+
+
+]

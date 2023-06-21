@@ -1,0 +1,68 @@
+﻿[
+  {
+    "intent": "ICrearTicketSharepointOnlineClara",
+    "language": "es-es",
+    "text": "Clara me falla",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  },
+
+{
+    "intent": "ICrearTicketSharepointOnlineClara",
+    "language": "es-es",
+    "text": "Clara no ejecuta",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  },
+
+{
+    "intent": "ICrearTicketSharepointOnlineClara",
+    "language": "es-es",
+    "text": "Ayuda con Clara por favor",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "10",
+        "length": "05"
+      }
+    ]
+  },
+
+{
+    "intent": "ICrearTicketSharepointOnlineClara",
+    "language": "es-es",
+    "text": "Clara no abre",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  },
+
+{
+    "intent": "ICrearTicketSharepointOnlineClara",
+    "language": "es-es",
+    "text": "Clara no carga informacion",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "00",
+        "length": "05"
+      }
+    ]
+  }
+
+
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "intent": "ICrearTicketYammer",
+    "language": "es-es",
+    "text": "No puedo iniciar sesión en Yammer",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "27",
+        "length": "06"
+      }
+    ]
+  },
+
+   {
+    "intent": "ICrearTicketYammer",
+    "language": "es-es",
+    "text": "Como podria solucionar los problemas de inicio de sesión en Yammer",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "52",
+        "length": "06"
+      }
+    ]
+  },
+
+   {
+    "intent": "ICrearTicketYammer",
+    "language": "es-es",
+    "text": "No puedo iniciar sesión en Yammer, ayuda por favor",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "26",
+        "length": "06"
+      }
+    ]
+  },
+
+   {
+    "intent": "ICrearTicketYammer",
+    "language": "es-es",
+    "text": "Necesito iniciar sesion en Yammer",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "26",
+        "length": "06"
+      }
+    ]
+  },
+
+   {
+    "intent": "ICrearTicketYammer",
+    "language": "es-es",
+    "text": "Ayuda, Yammer falla",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "07",
+        "length": "06"
+      }
+    ]
+  }
+
+
+]

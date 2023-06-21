@@ -1,0 +1,68 @@
+[
+  {
+    "intent": "ICrearTicketSharepointInterno",
+    "language": "es-es",
+    "text": "El SharePoint Interno no muestra informacion ",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "03",
+        "length": "17"
+      }
+    ]
+  },
+
+{
+    "intent": "ICrearTicketSharepointInterno",
+    "language": "es-es",
+    "text": "No hay información en el SharePoint Interno",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "25",
+        "length": "17"
+      }
+    ]
+  },
+
+{
+    "intent": "ICrearTicketSharepointInterno",
+    "language": "es-es",
+    "text": "El Sharepoint Interno de la organización falla",
+    "entities" : [
+      {
+        "category": "Microsoft0365",
+        "offset": "03",
+        "length": "17"
+      }
+    ]
+  },
+
+{
+    "intent": "ICrearTicketSharepointInterno",
+    "language": "es-es",
+    "text": "Necesito ayuda con el SharePoint Interno",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "23",
+        "length": "17"
+      }
+    ]
+  },
+
+{
+    "intent": "ICrearTicketSharepointInterno",
+    "language": "es-es",
+    "text": "Como hago para actualizar la informacion del Sharepoint Interno",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "44",
+        "length": "17"
+      }
+    ]
+  }
+
+
+]
