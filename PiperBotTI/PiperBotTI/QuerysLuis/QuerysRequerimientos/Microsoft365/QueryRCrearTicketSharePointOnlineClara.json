@@ -1,0 +1,68 @@
+[
+  {
+    "intent":"RCrearTicketSharePointOnlineClara",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent":"RCrearTicketSharePointOnlineClara",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketSharePointOnlineClara",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketSharePointOnlineClara",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketSharePointOnlineClara",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  }
+
+
+]

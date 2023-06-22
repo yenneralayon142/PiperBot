@@ -1,0 +1,68 @@
+[
+  {
+    "intent": "RCrearTicketSharePointInterno",
+    "language": "es-es",
+    "text":"",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketSharePointInterno",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketSharePointInterno",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketSharePointInterno",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketSharePointInterno",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  }
+
+
+]

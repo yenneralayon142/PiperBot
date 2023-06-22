@@ -74,6 +74,8 @@ namespace PiperBotTI.Dialogs
         }
 
         #region IntentLuis
+
+        
         private async Task<DialogTurnResult> IntentCalificar(WaterfallStepContext stepContext, RecognizerResult luisResult, CancellationToken cancellationToken)
         {
             return await stepContext.BeginDialogAsync(nameof(QualificatioDialog),cancellationToken:cancellationToken);
