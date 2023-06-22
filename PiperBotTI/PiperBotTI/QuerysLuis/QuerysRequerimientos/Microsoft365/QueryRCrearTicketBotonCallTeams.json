@@ -1,0 +1,68 @@
+[
+  {
+    "intent": "RCrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketBotonCallTeams",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  }
+
+
+]

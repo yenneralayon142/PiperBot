@@ -1,0 +1,67 @@
+[
+  {
+    "intent": "RCrearTicketPowerBIOnline",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketPowerBIOnline",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketPowerBIOnline",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketPowerBIOnline",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  },
+
+  {
+    "intent": "RCrearTicketPowerBIOnline",
+    "language": "es-es",
+    "text": "",
+    "entities": [
+      {
+        "category": "Microsoft0365",
+        "offset": "",
+        "length": ""
+      }
+    ]
+  }
+
+]
