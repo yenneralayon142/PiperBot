@@ -22,7 +22,9 @@
   </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="QuerysLuis\QuerysIncidentes\NewFolder\" />
+      <Folder Include="QuerysLuis\QuerysIncidentes\Acceos\" />
     </ItemGroup>
+
+   
 
 </Project>
